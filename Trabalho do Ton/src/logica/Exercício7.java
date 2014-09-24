@@ -6,7 +6,7 @@ public class Exercício7 {
 
 	public static void main(String[] args) { 
 
-		Integer Idade, mes, ano,aux,aux2,mes1, dias; 
+		Integer Idade, mes, ano,mes1, dias; 
 		Idade = Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade em dias")); 
 
 		mes = Idade % 365; // para achar os meses
